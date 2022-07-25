@@ -8,7 +8,6 @@ function App() {
     <Router>
       <Navbar />
     </Router>
-    //testJul25
   );
 }
 

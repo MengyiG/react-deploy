@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-//  import { Link as LinkS } from "react-scroll";
+import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: #000;
+  background: #f5ebe0;
   height: 80px;
   // margin-top: -80px;
   display: flex;
@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: red;
+  color: #606c38;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -38,4 +38,78 @@ export const NavLogo = styled(LinkR)`
   margin-left; 24px;
   font-weight: bold;
   text-decoration: none;
+`;
+
+export const MobileIcon = styled.div`
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #606c38;
+  }
+`;
+
+export const NavMenu = styled.div`
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-aligh: center;
+  margin-right: -22px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavItem = styled.li`
+  height: 80px;
+`;
+
+export const NavLinks = styled(LinkS)`
+  color: #606c38;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid #606c38;
+  }
+`;
+
+export const NavBtn = styled.div`
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  } ;
+`;
+
+export const NavBtnLink = styled(LinkR)`
+  border-radius: 50px;
+  background: #606c38;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #f5ebe0;
+  font-size: 16px;
+  outline: none;
+  border: #606c38 2px solid;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #f5ebe0;
+    color: #606c38;
+    border: #606c38 2px solid;
+  }
 `;
