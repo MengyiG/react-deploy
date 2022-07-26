@@ -20,6 +20,11 @@ export const SidebarContainer = styled.aside`
 
 export const ClosedIcon = styled(FaTimes)`
   color: #606c38;
+
+  &:hover {
+    color: #bc6c25;
+    transition: 0.2 ease-in-out;
+  }
 `;
 
 export const Icon = styled.div`
@@ -39,11 +44,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(5, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
+    grid-template-rows: repeat(5, 60px);
   }
 `;
 
