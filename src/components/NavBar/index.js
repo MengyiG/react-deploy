@@ -15,35 +15,33 @@ import {
 
 const Navbar = ({ toggle }) => {
   return (
-    <div>
-      <>
-        <Nav>
-          <NavbarContainer>
-            <NavLogo to="/">Mengyi Guo</NavLogo>
-            <MobileIcon onClick={toggle}>
-              <FaBars />
-            </MobileIcon>
-            <NavMenu>
-              <NavItem>
-                <NavLinks to="about">About</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to="project">Project</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to="gallery">Gallery</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to="singup">Sign Up</NavLinks>
-              </NavItem>
-            </NavMenu>
-            <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
-            </NavBtn>
-          </NavbarContainer>
-        </Nav>
-      </>
-    </div>
+    <>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo to="/">Mengyi Guo</NavLogo>
+          <MobileIcon onClick={toggle}>
+            <FaBars />
+          </MobileIcon>
+          <NavMenu>
+            <NavItem>
+              <NavLinks to="about">About</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="project">Project</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="gallery">Gallery</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="singup">Sign Up</NavLinks>
+            </NavItem>
+          </NavMenu>
+          <NavBtn>
+            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+          </NavBtn>
+        </NavbarContainer>
+      </Nav>
+    </>
   );
 };
 
