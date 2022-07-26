@@ -9,24 +9,24 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({ open, toggle }) => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+    <SidebarContainer open={open} onClick={toggle}>
       <Icon onClick={toggle}>
         <ClosedIcon />
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" isOpen={isOpen} onClick={toggle}>
+          <SidebarLink to="about" open={open} onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="project" isOpen={isOpen} onClick={toggle}>
+          <SidebarLink to="project" open={open} onClick={toggle}>
             Project
           </SidebarLink>
-          <SidebarLink to="gallery" isOpen={isOpen} onClick={toggle}>
+          <SidebarLink to="gallery" open={open} onClick={toggle}>
             Gallery
           </SidebarLink>
-          <SidebarLink to="signup" isOpen={isOpen} onClick={toggle}>
+          <SidebarLink to="signup" open={open} onClick={toggle}>
             Sign Up
           </SidebarLink>
         </SidebarMenu>
