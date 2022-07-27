@@ -29,8 +29,13 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
+// font-family: 'Edu VIC WA NT Beginner', cursive;
+//font-family: 'Kanit', sans-serif;
+//font-family: 'Roboto Mono', monospace;
+
 export const NavLogo = styled(LinkR)`
   color: #606c38;
+  font-family: "Kanit", sans-serif;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
