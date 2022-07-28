@@ -6,19 +6,21 @@ export const Button = styled(Link)`
   background: ${({ primary }) => (primary ? "#f5ebe0" : "#606c38")};
   white-space: no-wrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "#606c38" : "#dda15e")};
+  color: ${({ dark }) => (dark ? "#606c38" : "#f5ebe0")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  border: #606c38 2px solid;
   align-items: center;
   transition: all 0.2s ease-in-out;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#606c38" : "blue")};
-    color: ${({ primary }) => (primary ? "#f5ebe0" : "blue")};
+    background: ${({ primary }) => (primary ? "#606c38" : "#f5ebe0")};
+    color: ${({ primary }) => (primary ? "#f5ebe0" : "#606c38")};
+    border: #606c38 2px solid;
   }
 `;
