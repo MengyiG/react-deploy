@@ -26,8 +26,8 @@ const Sidebar = ({ open, toggle }) => {
           <SidebarLink to="gallery" open={open} onClick={toggle}>
             Gallery
           </SidebarLink>
-          <SidebarLink to="signup" open={open} onClick={toggle}>
-            Sign Up
+          <SidebarLink to="contact" open={open} onClick={toggle}>
+            Contact
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>
