@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Mengyi Guo</NavLogo>
+          <NavLogo to="/">Mengyi Guo </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="gallery">Gallery</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="singup">Sign Up</NavLinks>
+              <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
