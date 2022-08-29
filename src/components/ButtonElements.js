@@ -3,25 +3,29 @@ import { Link } from "react-scroll";
 
 export const Button = styled(Link)`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? "#f5ebe0" : "#606c38")};
+  background: ${({ primary }) =>
+    primary ? "var(--background-color)" : "var(--primary-color)"};
   white-space: no-wrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "#606c38" : "#f5ebe0")};
+  color: ${({ dark }) => (dark ? "var(--primary-color)" : "var(--text-color)")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  border: #606c38 2px solid;
+  border: var(--primary-color) 2px solid;
   align-items: center;
   transition: all 0.3s ease-in-out;
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    background: ${({ primary }) => (primary ? "#606c38" : "#f5ebe0")};
-    background: ${({ dark }) => (dark ? "#606c38" : "#f5ebe0")};
-    color: ${({ primary }) => (primary ? "#f5ebe0" : "#606c38")};
-    border: #606c38 2px solid;
+    background: ${({ primary }) =>
+      primary ? "var(--primary-color)" : "var(--background-color)"};
+    background: ${({ dark }) =>
+      dark ? "var(--primary-color)" : "var(--background-color)"};
+    color: ${({ primary }) =>
+      primary ? "var(--text-color)" : "var(--primary-color)"};
+    border: var(--primary-color) 2px solid;
   }
 `;
