@@ -44,9 +44,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: "about",
-  lightBg: true,
-  lightText: false,
-  lightDescription: false,
+  lightBg: false,
+  lightText: true,
+  lightDescription: true,
   topLine: "about me",
   headline: "Mengyi Guo",
   descriptionp1:
@@ -56,10 +56,10 @@ export const homeObjThree = {
   descriptionp3:
     "Currently looking to be a Software Development Intern or Entry-level Software Developer.",
   buttonLabel: "my projects",
-  imgStart: false,
-  img: require("../../images/svg-1.png"),
+  imgStart: true,
+  img: require("../../images/work-out.png"),
   alt: "Mengyi's portait",
-  dark: false,
-  primary: false,
-  darkText: true,
+  dark: true,
+  primary: true,
+  darkText: false,
 };

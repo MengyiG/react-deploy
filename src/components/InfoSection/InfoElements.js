@@ -24,6 +24,7 @@ export const InfoWrapper = styled.div`
 export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
+  grid-gap: 3rem;
   align-items: center;
 
   grid-template-areas: ${({ imgStart }) =>
@@ -55,7 +56,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: var(--secondary-color);
-  font-size: 16px;
+  font-size: 20px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -82,7 +83,7 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) =>
-    darkText ? "var(--secondary-color)" : "var(--primary-color)"};
+    darkText ? "var(--secondary-color)" : "var(--text-color)"};
 `;
 
 export const BtnWrap = styled.div`
@@ -98,6 +99,5 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 100%;
   border-radius: 20%;
-  margin: 0;
   filter: brightness(92%);
 `;
