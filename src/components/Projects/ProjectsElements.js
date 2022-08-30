@@ -45,12 +45,12 @@ export const ProjectsCard = styled.div`
   border: var(--primary-color) solid 5px;
   border-radius: 2rem;
   max-height: 340px;
-  padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  box-shadow: 5px 5px 10px #aaaaaa;
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.3);
+    transform: scale(1.25);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
@@ -82,4 +82,12 @@ export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
   color: var(--primary-color);
+`;
+
+export const ProjectsNote = styled.p`
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-weight: bold;
 `;

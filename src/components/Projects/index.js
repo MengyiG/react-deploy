@@ -10,6 +10,7 @@ import {
   ProjectsH1,
   ProjectsH2,
   ProjectsP,
+  ProjectsNote,
 } from "./ProjectsElements";
 
 const Projects = () => {
@@ -20,19 +21,33 @@ const Projects = () => {
         <ProjectsCard>
           <ProjectsIcon src={Icon1} />
           <ProjectsH2>Shu Bookstore</ProjectsH2>
-          <ProjectsP>sdfasdfasdfsafsdf</ProjectsP>
+          <ProjectsP>
+            Designed an e-commerce website (HTML, CSS, JavaScript, Vue)
+          </ProjectsP>
+          <br />
+          <ProjectsNote>More</ProjectsNote>
         </ProjectsCard>
 
         <ProjectsCard>
           <ProjectsIcon src={Icon2} />
-          <ProjectsH2>Chrome extension</ProjectsH2>
-          <ProjectsP>sdfasdfasdfsafsdf</ProjectsP>
+          <ProjectsH2>Chrome Extension</ProjectsH2>
+          <ProjectsP>
+            Created a lead tracker Chrome extension to source potential leads
+            (JavaScript)
+          </ProjectsP>
+          <br />
+          <ProjectsNote>More</ProjectsNote>
         </ProjectsCard>
 
         <ProjectsCard>
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>DAB Game</ProjectsH2>
-          <ProjectsP>sdfasdfasdfsafsdf</ProjectsP>
+          <ProjectsP>
+            Created a responsive game interface and underlying game engine
+            (Java)
+          </ProjectsP>
+          <br />
+          <ProjectsNote>More</ProjectsNote>
         </ProjectsCard>
       </ProjectsWrapper>
     </ProjectsContainer>
