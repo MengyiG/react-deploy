@@ -100,5 +100,4 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 100%;
   border-radius: 20%;
-  filter: brightness(92%);
 `;

@@ -14,7 +14,10 @@ export const Button = styled(Link)`
   cursor: pointer;
   display: flex;
   justify-content: center;
-  border: var(--primary-color) 2px solid;
+  border: ${({ dark }) =>
+  dark
+    ? "var(--background-color) 2px solid"
+    : "var(--primary-color) 2px solid"};;
   align-items: center;
   transition: all 0.3s ease-in-out;
 
@@ -24,6 +27,9 @@ export const Button = styled(Link)`
       dark ? "var(--primary-color)" : "var(--background-color)"};
     color: ${({ primary }) =>
       primary ? "var(--text-color)" : "var(--primary-color)"};
-    border: var(--primary-color) 2px solid;
+    border: ${({ dark }) =>
+      dark
+        ? "var(--background-color) 2px solid"
+        : "var(--primary-color) 2px solid"};
   }
 `;

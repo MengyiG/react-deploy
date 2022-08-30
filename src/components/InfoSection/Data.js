@@ -28,12 +28,10 @@ export const homeObjTwo = {
   lightDescription: true,
   topLine: "about me",
   headline: "Education & Experience",
-  descriptionp1:
-    "I am a graduate student at Virginia Tech in the program of Information Technology, reshaping my skills by the radical development and innovation of computer technology. I have been developing my understanding in this area by learning Java, HTML, CSS, React, Vue, database management, and e-commerce and am expecting to explore software development. ",
+  descriptionp1: `Virginia Tech | Sept 2021 - Dec 2023 (expected) | GPA 4.0/4.0 | Master of Information Technology `,
   descriptionp2:
-    "I have a great passion for both life and work and I am a lifelong learner. When I disconnect from the social network, I reconnect myself with podcasts 🎙. ",
-  descriptionp3:
-    "Currently looking to be a Software Development Intern or Entry-level Software Developer.",
+    "McGill University | Sept 2015 - Jun 2017 | GPA 3.8/4.0  | Secondary Language Education | Master of Arts",
+  descriptionp3: "CAE | Sept 2022 - Dec 2022 | Software Developer Intern",
   buttonLabel: "my projects",
   imgStart: true,
   img: require("../../images/me.JPG"),
