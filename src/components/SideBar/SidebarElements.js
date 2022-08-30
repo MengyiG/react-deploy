@@ -83,13 +83,15 @@ export const SidebarRoute = styled(LinkR)`
   color: var(--text-color);
   font-size: 16px;
   outline: none;
-  border: none;
   cursor: pointer;
+  border: var(--primary-color) 2px solid;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
   &:hover {
-    background: var(--secondary-color);
+    background: var(--background-color);
+    color: var(--primary-color);
     transition: 0.2 ease-in-out;
+    border: var(--primary-color) 2px solid;
   }
 `;

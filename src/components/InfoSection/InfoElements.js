@@ -79,14 +79,15 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 18px;
+  margin-bottom: 1.5rem;
+  font-size: 17px;
   line-height: 24px;
   color: ${({ darkText }) =>
     darkText ? "var(--secondary-color)" : "var(--text-color)"};
 `;
 
 export const BtnWrap = styled.div`
+  margin-top: 3rem;
   display: flex;
   justify-content: flex-start;
 `;

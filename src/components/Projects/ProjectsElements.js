@@ -42,7 +42,7 @@ export const ProjectsCard = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: var(--primary-color) solid 5px;
+  border: var(--primary-color) solid 4px;
   border-radius: 2rem;
   max-height: 340px;
   padding: 20px;

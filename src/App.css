@@ -17,25 +17,3 @@
   ),
   linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
  }
-
- .primary-button{
-  border-radius: 50px;
-  background: var(--primary-color);
-  white-space: nowrap;
-  padding: 10px 22px;
-  color: var(--text-color);
-  font-size: 16px;
-  outline: none;
-  border: var(--primary-color) 2px solid;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
- }
-
- .primary-button:hover,
-.primary-button:active{
-  transition: all 0.2s ease-in-out;
-  background: var(--background-color);
-  color: var(--primary-color);
-  border: var(--primary-color) 2px solid;
-}

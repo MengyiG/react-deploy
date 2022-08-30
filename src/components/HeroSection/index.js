@@ -25,7 +25,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Hi, Welcome to Mengyi's Backyard.</HeroH1>
+        <HeroH1>Hi! Welcome to Mengyi's Backyard.</HeroH1>
         <HeroP>
           This is a showcase of my projects and a little bit about myself.
         </HeroP>

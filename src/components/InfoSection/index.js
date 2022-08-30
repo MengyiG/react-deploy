@@ -26,6 +26,7 @@ const InfoSection = ({
   descriptionp1,
   descriptionp2,
   descriptionp3,
+  descriptionp4,
   darkText,
   buttonLabel,
   img,
@@ -46,9 +47,10 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{descriptionp1}</Subtitle>
                 <Subtitle darkText={darkText}>{descriptionp2}</Subtitle>
                 <Subtitle darkText={darkText}>{descriptionp3}</Subtitle>
+                <Subtitle darkText={darkText}>{descriptionp4}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to="project"
                     smooth={true}
                     duration={500}
                     spy={true}
