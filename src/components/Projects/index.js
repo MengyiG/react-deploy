@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../images/p1.png";
-import Icon2 from "../../images/p2.png";
-import Icon3 from "../../images/p3.png";
+import Icon1 from "../../images/p1.svg";
+import Icon2 from "../../images/p2.svg";
+import Icon3 from "../../images/p3.svg";
 import {
   ProjectsCard,
   ProjectsContainer,

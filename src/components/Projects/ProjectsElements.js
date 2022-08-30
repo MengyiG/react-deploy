@@ -37,19 +37,20 @@ export const ProjectsWrapper = styled.div`
 `;
 
 export const ProjectsCard = styled.div`
-  background: var(--primary-color);
+  background: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
+  border: var(--primary-color) solid 5px;
+  border-radius: 2rem;
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.22);
+    transform: scale(1.3);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
@@ -74,11 +75,11 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
-  color: var(--text-color);
+  color: var(--primary-color);
 `;
 
 export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
-  color: var(--text-color);
+  color: var(--primary-color);
 `;
