@@ -22,12 +22,12 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "project",
+  id: "about-2",
   lightBg: false,
   lightText: true,
   lightDescription: true,
-  topLine: "Education | Experience",
-  headline: "Mengyi Guo",
+  topLine: "about me",
+  headline: "Education & Experience",
   descriptionp1:
     "I am a graduate student at Virginia Tech in the program of Information Technology, reshaping my skills by the radical development and innovation of computer technology. I have been developing my understanding in this area by learning Java, HTML, CSS, React, Vue, database management, and e-commerce and am expecting to explore software development. ",
   descriptionp2:
@@ -36,7 +36,7 @@ export const homeObjTwo = {
     "Currently looking to be a Software Development Intern or Entry-level Software Developer.",
   buttonLabel: "my projects",
   imgStart: true,
-  img: require("../../images/work-out.png"),
+  img: require("../../images/me.JPG"),
   alt: "Mengyi's portait",
   dark: true,
   primary: true,
@@ -44,22 +44,21 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "about",
+  id: "gallery",
   lightBg: false,
   lightText: true,
   lightDescription: true,
-  topLine: "about me",
-  headline: "Mengyi Guo",
+  topLine: "gallery",
+  headline: "Capture Every Beautiful Moment of Life",
   descriptionp1:
-    "I am a graduate student at Virginia Tech in the program of Information Technology, reshaping my skills by the radical development and innovation of computer technology. I have been developing my understanding in this area by learning Java, HTML, CSS, React, Vue, database management, and e-commerce and am expecting to explore software development. ",
-  descriptionp2:
-    "I have a great passion for both life and work and I am a lifelong learner. When I disconnect from the social network, I reconnect myself with podcasts 🎙. ",
-  descriptionp3:
-    "Currently looking to be a Software Development Intern or Entry-level Software Developer.",
-  buttonLabel: "my projects",
+    "I LOVE SPEDING TIME ON CAPTURING EVERY BEAUTIFUL MOMENT OF LIFE.",
+  descriptionp2: "💜 I just begin to learn paintings.",
+  descriptionp3: "💛 I have two pets: a bunny and a dachshund - sausage dog.",
+  descriptionp4: "💚 And I am good at planting avocados",
+  buttonLabel: "See my works",
   imgStart: true,
-  img: require("../../images/work-out.png"),
-  alt: "Mengyi's portait",
+  img: require("../../images/gallery.png"),
+  alt: "Mengyi's gallery",
   dark: true,
   primary: true,
   darkText: false,

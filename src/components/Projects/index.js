@@ -11,11 +11,12 @@ import {
   ProjectsH2,
   ProjectsP,
   ProjectsNote,
+  ProjectsLink,
 } from "./ProjectsElements";
 
 const Projects = () => {
   return (
-    <ProjectsContainer id="projects">
+    <ProjectsContainer id="project">
       <ProjectsH1>My Projects</ProjectsH1>
       <ProjectsWrapper>
         <ProjectsCard>
@@ -50,6 +51,7 @@ const Projects = () => {
           <ProjectsNote>More</ProjectsNote>
         </ProjectsCard>
       </ProjectsWrapper>
+      <ProjectsLink to="projects">More Projects</ProjectsLink>
     </ProjectsContainer>
   );
 };

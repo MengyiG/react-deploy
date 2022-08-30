@@ -1,11 +1,13 @@
 import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 
 export const ProjectsContainer = styled.div`
   height: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 5rem;
   background: var(--background-color);
 
   @media screen and (max-midth: 768px) {
@@ -22,7 +24,7 @@ export const ProjectsWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items; center;
+  align-items; start;
   grid-gap: 5rem;
   padding 0 50px;
 
@@ -90,4 +92,17 @@ export const ProjectsNote = styled.p`
   text-decoration: underline;
   color: var(--primary-color);
   font-weight: bold;
+`;
+
+export const ProjectsLink = styled(LinkR)`
+  font-size: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 5rem;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--background-color);
+    text-decoration: underline;
+  }
 `;
