@@ -14,6 +14,7 @@ import {
   WebsiteRights,
   SocialIconLink,
   SocialIcons,
+  FooterScroll,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -36,9 +37,27 @@ const Footer = () => {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Main Sections</FooterLinkTitle>
-            <FooterLink to="/">About</FooterLink>
-            <FooterLink to="/">Education & Experience</FooterLink>
-            <FooterLink
+            <FooterScroll
+              to="about"
+              smooth={true}
+              duration={800}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              About
+            </FooterScroll>
+            <FooterScroll
+              to="edu"
+              smooth={true}
+              duration={800}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Education & Experience
+            </FooterScroll>
+            <FooterScroll
               to="project"
               smooth={true}
               duration={800}
@@ -47,8 +66,17 @@ const Footer = () => {
               offset={-80}
             >
               Projects
-            </FooterLink>
-            <FooterLink to="gallery">Gallery</FooterLink>
+            </FooterScroll>
+            <FooterScroll
+              to="gallery"
+              smooth={true}
+              duration={800}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Gallery
+            </FooterScroll>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>References</FooterLinkTitle>

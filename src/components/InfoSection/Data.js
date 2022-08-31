@@ -22,7 +22,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "about-2",
+  id: "edu",
   lightBg: false,
   lightText: true,
   lightDescription: true,
