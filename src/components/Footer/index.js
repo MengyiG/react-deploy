@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -7,6 +8,12 @@ import {
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIconLink,
+  SocialIcons,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -47,6 +54,31 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to="/">Mengyi Guo</SocialLogo>
+            <WebsiteRights>
+              {" "}
+              copyright {new Date().getFullYear()}
+              ALL RIGHTS RESERVED.
+            </WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink
+                href="//www.linkedin.com/in/mengyi-guo/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                <FaLinkedin />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Github">
+                <FaGithub />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                <FaYoutube />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );
