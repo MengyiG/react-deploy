@@ -12,10 +12,11 @@ import Img10 from "../../images/coffee.jpg";
 import Img11 from "../../images/winter.JPG";
 import Img12 from "../../images/hand in hand.JPG";
 
-import { FaCameraRetro } from "react-icons/fa";
+import { FaCameraRetro, FaHome } from "react-icons/fa";
 
 import {
   GalleriesContainer,
+  GalleriesBtn,
   GalleriesContent,
   GalleriesH1,
   GalleriesH2,
@@ -64,6 +65,10 @@ const GalleriesPage = () => {
         <GalleriesImg src={Img12} />
         <GalleriesP>Summer, 2021, Toronto</GalleriesP>
       </GalleriesContent>
+      <GalleriesBtn to="/">
+        {" "}
+        Back Home <FaHome size={17} />
+      </GalleriesBtn>
     </GalleriesContainer>
   );
 };
