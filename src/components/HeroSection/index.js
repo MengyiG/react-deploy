@@ -33,6 +33,7 @@ const HeroSection = () => {
           <Button
             to="about"
             smooth={true}
+            duration={800}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

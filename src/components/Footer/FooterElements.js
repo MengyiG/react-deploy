@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 1rem 0.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,19 +15,13 @@ export const FooterWrap = styled.div`
   margin: 0 auto;
 `;
 
-export const FooterLinksContainer = styled.div`
+export const FooterLinksWrapper = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 5rem;
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
-  }
-`;
-
-export const FooterLinksWrapper = styled.div`
-  display: flex;
-
-  @media screen and (max-width: 820px) {
     flex-direction: column;
   }
 `;
@@ -36,9 +30,9 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
+  margin: 1rem;
   text-align: left;
-  width: 160px;
+  width: 13rem;
   box-sizing: border-box;
   color: var(--secondary-color);
 
