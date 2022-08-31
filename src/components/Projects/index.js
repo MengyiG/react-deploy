@@ -51,7 +51,7 @@ const Projects = () => {
           <ProjectsNote>More</ProjectsNote>
         </ProjectsCard>
       </ProjectsWrapper>
-      <ProjectsLink to="projects">More Projects</ProjectsLink>
+      <ProjectsLink to="projects">More Details and Projects</ProjectsLink>
     </ProjectsContainer>
   );
 };

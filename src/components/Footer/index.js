@@ -1,5 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube, FaHeart } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
@@ -17,6 +18,10 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -56,11 +61,12 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Mengyi Guo</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              <FaHeart /> &nbsp;Mengyi Guo
+            </SocialLogo>
             <WebsiteRights>
               {" "}
-              copyright {new Date().getFullYear()}
-              ALL RIGHTS RESERVED.
+              Ⓒ{new Date().getFullYear()} All Rights Reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
+import { FaHeart } from "react-icons/fa";
 
 import {
   Nav,
@@ -38,7 +39,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            Mengyi Guo{" "}
+            <FaHeart /> &nbsp; Mengyi Guo{" "}
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -48,7 +49,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="about"
                 smooth={true}
-                duration={500}
+                duration={800}
                 spy={true}
                 exact="true"
                 offset={-80}
@@ -60,7 +61,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="project"
                 smooth={true}
-                duration={500}
+                duration={800}
                 spy={true}
                 exact="true"
                 offset={-80}
@@ -72,7 +73,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="gallery"
                 smooth={true}
-                duration={500}
+                duration={800}
                 spy={true}
                 exact="true"
                 offset={-80}

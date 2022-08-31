@@ -37,7 +37,6 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled(LinkR)`
   color: var(--primary-color);
-  font-family: "Kanit", sans-serif;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2rem;

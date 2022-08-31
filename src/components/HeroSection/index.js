@@ -32,6 +32,7 @@ const HeroSection = () => {
         <HeroBtnWrapper>
           <Button
             to="about"
+            smooth={true}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
