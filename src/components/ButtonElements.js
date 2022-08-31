@@ -15,9 +15,9 @@ export const Button = styled(Link)`
   display: flex;
   justify-content: center;
   border: ${({ dark }) =>
-  dark
-    ? "var(--background-color) 2px solid"
-    : "var(--primary-color) 2px solid"};;
+    dark
+      ? "var(--background-color) 2px solid"
+      : "var(--primary-color) 2px solid"};
   align-items: center;
   transition: all 0.3s ease-in-out;
 

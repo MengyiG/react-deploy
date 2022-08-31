@@ -95,14 +95,16 @@ export const ProjectsNote = styled.p`
 `;
 
 export const ProjectsLink = styled(LinkR)`
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
-  color: var(--primary-color);
-  margin-top: 5rem;
+  color: var(--text-color);
+  margin-top: 6rem;
   text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  border-radius: 25px;
 
   &:hover {
-    background: var(--background-color);
     text-decoration: underline;
   }
 `;
