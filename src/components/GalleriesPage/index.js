@@ -1,5 +1,4 @@
 import React from "react";
-import Video from "../../videos/video.mp4";
 import Img1 from "../../images/Img1.JPG";
 import Img2 from "../../images/Img2.jpg";
 import Img3 from "../../images/picture3.JPG";
@@ -13,6 +12,8 @@ import Img10 from "../../images/coffee.jpg";
 import Img11 from "../../images/winter.JPG";
 import Img12 from "../../images/hand in hand.JPG";
 
+import { FaCameraRetro } from "react-icons/fa";
+
 import {
   GalleriesContainer,
   GalleriesContent,
@@ -20,17 +21,15 @@ import {
   GalleriesH2,
   GalleriesP,
   GalleriesImg,
-  VideoBg,
 } from "./GalleriesPageElements";
 
 const GalleriesPage = () => {
   return (
     <GalleriesContainer>
-      <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       <GalleriesContent>
         <GalleriesH1>GALLERY</GalleriesH1>
         <GalleriesH2>
-          I LOVE SPEDING TIME ON CAPTURING EVERY BEAUTIFUL MOMENT OF LIFE.
+          I LOVE CAPTURING <FaCameraRetro /> EVERY BEAUTIFUL MOMENT OF LIFE.
         </GalleriesH2>
         <GalleriesImg src={Img1} />
         <GalleriesP>Summer, 2021, Toronto</GalleriesP>

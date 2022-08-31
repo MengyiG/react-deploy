@@ -1,20 +1,15 @@
 import styled from "styled-components";
 
 export const GalleriesContainer = styled.div`
-  background: var(--primary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 1;
+  height: 800px;
+  overflow: scroll;
+  background: var(--primary-color);
 `;
-
-export const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  filter: brightness(80%);
-`;
-
 export const GalleriesContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,6 +26,8 @@ export const GalleriesH1 = styled.h1`
   font-size: 2rem;
   text-align: left;
   line-height: 35px;
+  margin-top: 4rem;
+
   margin-bottom: 1rem;
 `;
 
