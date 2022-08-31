@@ -70,10 +70,18 @@ const Footer = () => {
               >
                 <FaLinkedin />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Github">
+              <SocialIconLink
+                href="//github.com/MengyiG"
+                target="_blank"
+                aria-label="Github"
+              >
                 <FaGithub />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+              <SocialIconLink
+                href="//www.youtube.com/channel/UCu7Q8pfeEvjgTxVyj7YVxHw"
+                target="_blank"
+                aria-label="Youtube"
+              >
                 <FaYoutube />
               </SocialIconLink>
             </SocialIcons>

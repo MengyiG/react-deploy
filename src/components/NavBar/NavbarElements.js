@@ -3,7 +3,9 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: var(--background-color);
+  // background could be set to transparent if it's not necessary in the main page
+  background: ${({ scrollNav }) =>
+    scrollNav ? "var(--background-color)" : "var(--background-color)"};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -38,10 +40,9 @@ export const NavLogo = styled(LinkR)`
   font-family: "Kanit", sans-serif;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -87,7 +88,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color);
   }
 `;
 

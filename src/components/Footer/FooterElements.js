@@ -108,7 +108,13 @@ export const SocialIcons = styled.div`
   width: 240px;
 `;
 
-export const SocialIconLink = styled.div`
+export const SocialIconLink = styled.a`
   color: var(--primary-color);
   font-size: 24px;
+
+  &:hover {
+    color: var(--secondary-color);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+  }
 `;
