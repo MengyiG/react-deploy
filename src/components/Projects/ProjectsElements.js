@@ -95,7 +95,7 @@ export const ProjectsNote = styled.p`
 `;
 
 export const ProjectsLink = styled(LinkR)`
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center;
   color: var(--primary-color);
   margin-top: 5rem;
