@@ -1,10 +1,13 @@
 import React from "react";
+import Animation from "../Animation";
 
 const ProjectsPage = () => {
   return (
-    <div>
-      <h1>projects page</h1>
-    </div>
+    <>
+      <Animation>
+        <ProjectsPage />
+      </Animation>
+    </>
   );
 };
 

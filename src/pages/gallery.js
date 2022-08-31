@@ -1,10 +1,13 @@
 import React from "react";
 import GalleriesPage from "../components/GalleriesPage";
+import Animation from "../Animation";
 
 const GalleryPage = () => {
   return (
     <>
-      <GalleriesPage />
+      <Animation>
+        <GalleriesPage />
+      </Animation>
     </>
   );
 };
