@@ -1,5 +1,11 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaYoutube, FaHeart } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaYoutube,
+  FaHeart,
+  FaDiscord,
+} from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
@@ -136,6 +142,13 @@ const Footer = () => {
                 aria-label="Youtube"
               >
                 <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href="https://discord.com/users/880267292846477313"
+                target="_blank"
+                aria-label="Discord"
+              >
+                <FaDiscord />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

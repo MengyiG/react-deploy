@@ -58,17 +58,19 @@ export const GalleriesH1 = styled.h1`
 
 export const GalleriesH2 = styled.h2`
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 22px;
   line-height: 35px;
   padding: 1rem 0;
   margin-bottom: 1rem;
 `;
 export const GalleriesImg = styled.img`
-  width: 33rem;
-  border-radius: 5%;
+  max-width: 45rem;
+  border-radius: 1%;
 `;
 
 export const GalleriesP = styled.div`
   color: var(--text-color);
-  padding: 2rem;
+  padding: 2rem 5rem;
+  font-size: 17px;
+  font-weight: lighter;
 `;
