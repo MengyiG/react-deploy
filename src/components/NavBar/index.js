@@ -83,7 +83,9 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/contact">Contact Me</NavBtnLink>
+            <NavBtnLink href="mailto: yiii9292@gmail.com" target="_blank">
+              Contact Me
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

@@ -28,7 +28,9 @@ const Sidebar = ({ open, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>
-          <SidebarRoute to="/signin">Contact Me</SidebarRoute>
+          <SidebarRoute href="mailto: yiii9292@gmail.com" target="_blank">
+            Contact Me
+          </SidebarRoute>
         </SidebarBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

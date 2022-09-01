@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  min-height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -54,7 +54,15 @@ export const ProjectsCard = styled.div`
   &:hover {
     transform: scale(1.25);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
+    border: var(--secondary-color) solid 4px;
+
+    @media screen and (max-width: 768px) {
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out;
+        border: var(--secondary-color) solid 4px;
+    }
+
   }
 `;
 
@@ -86,19 +94,23 @@ export const ProjectsP = styled.p`
   color: var(--primary-color);
 `;
 
-export const ProjectsNote = styled.p`
+export const ProjectsNote = styled(LinkR)`
   font-size: 0.8rem;
   text-align: center;
   text-decoration: underline;
   color: var(--primary-color);
   font-weight: bold;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
 `;
 
 export const ProjectsLink = styled(LinkR)`
   font-size: 1.1rem;
   text-align: center;
   color: var(--text-color);
-  margin-top: 6rem;
+  margin: 6rem 0;
   text-decoration: none;
   background-color: var(--primary-color);
   padding: 1rem 2rem;

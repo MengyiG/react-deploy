@@ -26,7 +26,7 @@ const Projects = () => {
             Designed an e-commerce website (HTML, CSS, JavaScript, Vue)
           </ProjectsP>
           <br />
-          <ProjectsNote>More</ProjectsNote>
+          <ProjectsNote to="projects">More</ProjectsNote>
         </ProjectsCard>
 
         <ProjectsCard>
@@ -37,7 +37,7 @@ const Projects = () => {
             (JavaScript)
           </ProjectsP>
           <br />
-          <ProjectsNote>More</ProjectsNote>
+          <ProjectsNote to="projects">More</ProjectsNote>
         </ProjectsCard>
 
         <ProjectsCard>
@@ -48,7 +48,7 @@ const Projects = () => {
             (Java)
           </ProjectsP>
           <br />
-          <ProjectsNote>More</ProjectsNote>
+          <ProjectsNote to="projects">More</ProjectsNote>
         </ProjectsCard>
       </ProjectsWrapper>
       <ProjectsLink to="projects">More Details and Projects</ProjectsLink>
