@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.c385567e.css",
+    "main.js": "/react-deploy/static/js/main.4fdfe213.js",
+    "static/media/Img2.jpg": "/react-deploy/static/media/Img2.437565408c720d44559e.jpg",
+    "static/media/video.mp4": "/react-deploy/static/media/video.511d8d207d1f861e3f1c.mp4",
+    "static/media/hand in hand.JPG": "/react-deploy/static/media/hand in hand.b6c490c6641d66c4c574.JPG",
+    "static/media/picture2.JPG": "/react-deploy/static/media/picture2.3a4f6d5a41701f9e7a8d.JPG",
+    "static/media/picture1.JPG": "/react-deploy/static/media/picture1.7aeb5cbf5bcb88bd02f8.JPG",
+    "static/media/plants1.JPG": "/react-deploy/static/media/plants1.2ae0fca770ddb8d82817.JPG",
+    "static/media/plants2.JPG": "/react-deploy/static/media/plants2.c3cc3b51e2705c29bfe8.JPG",
+    "static/media/picture3.JPG": "/react-deploy/static/media/picture3.1f9a98d72ceeabaeeff3.JPG",
+    "static/media/curious.JPG": "/react-deploy/static/media/curious.1165033034e2a7e29cda.JPG",
+    "static/media/rabbit.JPG": "/react-deploy/static/media/rabbit.fd2fa8daa20cbd9ae648.JPG",
+    "static/media/winter.JPG": "/react-deploy/static/media/winter.f63a3b6ed75a9d887201.JPG",
+    "static/media/coffee.jpg": "/react-deploy/static/media/coffee.06cebc0f90ac60c72593.jpg",
+    "static/media/me.JPG": "/react-deploy/static/media/me.bb5d36a5794b862d1228.JPG",
+    "static/media/Img1.JPG": "/react-deploy/static/media/Img1.fe5ac4a699c01f77134e.JPG",
+    "static/media/website.png": "/react-deploy/static/media/website.e116f322e2893610c164.png",
+    "static/media/dog.JPG": "/react-deploy/static/media/dog.a7665276398ed9aef791.JPG",
+    "static/media/vending machine.png": "/react-deploy/static/media/vending machine.c0bd4bc8ab1fc8138f9e.png",
+    "static/media/DABGame.png": "/react-deploy/static/media/DABGame.92863fcc03dd33db0678.png",
+    "static/media/gallery.png": "/react-deploy/static/media/gallery.2e31b6b1ece0cbdd6120.png",
+    "static/media/locked-out-map.png": "/react-deploy/static/media/locked-out-map.8796015c751b5f1212cc.png",
+    "static/media/insuranceTracker.png": "/react-deploy/static/media/insuranceTracker.25731ec329c65f586164.png",
+    "static/media/p1.svg": "/react-deploy/static/media/p1.ea7feeaea0c5388f062086e80f7ee93b.svg",
+    "static/media/p2.svg": "/react-deploy/static/media/p2.ab7d95a3965fd0c052fac0eeb08ad920.svg",
+    "static/media/p3.svg": "/react-deploy/static/media/p3.8c571fd0872399bca701e6514af43312.svg",
+    "index.html": "/react-deploy/index.html",
+    "main.c385567e.css.map": "/react-deploy/static/css/main.c385567e.css.map",
+    "main.4fdfe213.js.map": "/react-deploy/static/js/main.4fdfe213.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c385567e.css",
+    "static/js/main.4fdfe213.js"
+  ]
+}
