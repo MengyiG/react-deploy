@@ -1,7 +1,8 @@
 import React from "react";
+import ProjectsPage from "../components/ProjectsPage";
 import Animation from "../Animation";
 
-const ProjectsPage = () => {
+const ProjectsPages = () => {
   return (
     <>
       <Animation>
@@ -11,4 +12,4 @@ const ProjectsPage = () => {
   );
 };
 
-export default ProjectsPage;
+export default ProjectsPages;
