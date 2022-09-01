@@ -5,10 +5,12 @@ import Home from "./pages";
 import ProjectsPage from "./pages/projects";
 import GalleryPage from "./pages/gallery";
 import { AnimatePresence } from "framer-motion";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AnimatePresence exitBeforeEnter>
         <Routes>
           <Route path="/" element={<Home />} />
