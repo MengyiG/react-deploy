@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const GalleriesContainer = styled.div`
   display: flex;
@@ -7,13 +7,12 @@ export const GalleriesContainer = styled.div`
   align-items: center;
   position: relative;
   z-index: 1;
-  height: 800px;
   width: 100%;
   overflow: scroll;
   background: var(--primary-color);
 `;
 
-export const GalleriesBtn = styled(LinkR)`
+export const GalleriesBtn = styled(Link)`
   font-size: 1.2rem;
   text-align: center;
   color: var(--primary-color);
@@ -42,7 +41,7 @@ export const GalleriesContent = styled.div`
   align-items: center;
   background-color: rgba(27, 31, 34, 0.85);
   opacity: 95%;
-  max-width: 60rem;
+  max-width: 50rem;
   padding: 4rem;
 `;
 
@@ -64,13 +63,11 @@ export const GalleriesH2 = styled.h2`
   margin-bottom: 1rem;
 `;
 export const GalleriesImg = styled.img`
-  max-width: 45rem;
+  max-width: 42rem;
   border-radius: 1%;
 `;
 
 export const GalleriesP = styled.div`
   color: var(--text-color);
-  padding: 2rem 5rem;
-  font-size: 17px;
-  font-weight: lighter;
+  padding: 2rem;
 `;

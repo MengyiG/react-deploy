@@ -11,6 +11,7 @@ import Img9 from "../../images/plants1.JPG";
 import Img10 from "../../images/coffee.jpg";
 import Img11 from "../../images/winter.JPG";
 import Img12 from "../../images/hand in hand.JPG";
+import BackTopBtn from "../BackToBtn";
 
 import { FaCameraRetro, FaHome } from "react-icons/fa";
 
@@ -27,6 +28,7 @@ import {
 const GalleriesPage = () => {
   return (
     <GalleriesContainer>
+      <BackTopBtn />
       <GalleriesContent>
         <GalleriesH1>GALLERY</GalleriesH1>
         <GalleriesH2>
