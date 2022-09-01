@@ -111,9 +111,13 @@ export const GalleryButton = styled(Link)`
   background-color: var(--background-color);
   padding: 1rem 2rem;
   border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid var(--background-color);
 
   &:hover {
-    transition: 0.3s ease-out;
-    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 2px solid var(--background-color);
   }
 `;

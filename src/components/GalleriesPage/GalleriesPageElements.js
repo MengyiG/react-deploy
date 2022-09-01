@@ -7,7 +7,7 @@ export const GalleriesContainer = styled.div`
   align-items: center;
   position: relative;
   z-index: 1;
-  height: 800px;
+  height: auto;
   width: 100%;
   overflow: scroll;
   background: var(--primary-color);

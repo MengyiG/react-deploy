@@ -19,7 +19,7 @@ export const FooterWrap = styled.div`
 export const FooterLinksWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 1.5rem;
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
@@ -78,6 +78,7 @@ export const SocialMedia = styled.section`
   max-width: 1000px;
   width: 100%;
   margin-left: -5rem;
+  padding: 1rem;
 `;
 
 export const SocialMediaWrap = styled.div`

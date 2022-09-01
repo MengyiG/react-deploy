@@ -103,8 +103,13 @@ export const ProjectsLink = styled(LinkR)`
   background-color: var(--primary-color);
   padding: 1rem 2rem;
   border-radius: 25px;
+  border: 2px solid var(--primary-color);
+  transition: all 0.3s ease-in-out;
 
   &:hover {
-    text-decoration: underline;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    transition: all 0.3s ease-in-out;
   }
 `;
